@@ -1,0 +1,29 @@
+
+body {
+  background: rgb(16, 11, 11);
+  color: red;
+  font-family: Arial;
+  text-align: center;
+}
+
+a {
+  color: pink;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.heart {
+  position: fixed;
+  color: pink;
+  animation: float 5s linear infinite;
+}
+
+@keyframes float {
+  0% {transform: translateY(50vh);}
+  100% {transform: translateY(-100vh);}
+}
